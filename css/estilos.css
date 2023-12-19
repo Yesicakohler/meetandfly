@@ -7,7 +7,7 @@
   }
   body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(220, 245, 242);
+    background-color: azure;
   }
   header{
     .logo {
@@ -85,11 +85,12 @@
 }
   .galeriaGrid{
   display: grid;
-  grid-template-columns: repeat(4, fr);
+  grid-template-columns: repeat(4, 1fr);
   padding: 20px;
   grid-gap: 10px;
 
   }
+
   .contenedorDestino img{
     width: 100%;
     height: 100%;
