@@ -1,0 +1,46 @@
+footer{
+    margin: 20px;
+    padding: 20px;
+    border-top: 1px solid black;
+    text-align: center;
+    .footerRedes a{
+    font-size: 17px;
+    color: #b788be;
+    display: block;
+    margin-bottom: 20px;
+    &:hover{
+color: #00c3ff;
+    }
+    }
+.socials a{
+        display: inline-block;
+        min-height: 40px;
+        width: 40px;
+        background-color: #00c3ff;
+        margin: 0 15px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #ffff;
+        font-size: 20px;
+    &:hover{
+        background-color: #ffff;
+    }
+    .textFooter{
+        display: flex;
+        justify-content: space-between;
+        p{
+        font-size: 15px;
+        color: #b7b8be;
+        }
+    }
+}
+}
+.piepag{
+    background-image: url(../assets/img/svg\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+}
