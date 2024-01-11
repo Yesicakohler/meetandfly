@@ -107,6 +107,8 @@ main h1 {
   display: block;
   width: 100%;
   height: auto;
+  justify-content: center;
+  background-color: white;
 }
 
 iframe {

@@ -10,14 +10,17 @@ margin: 20px 0px;
 
 }
 .contenedorDestino img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+width: 100%;
+height: 100%;
+object-fit: cover;
 }
+
 .imgdes{
     display: block;
     width: 100%;
     height: auto;
+    justify-content: center;
+    background-color: white;
 }
 iframe{
     display: block;
